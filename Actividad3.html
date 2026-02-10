@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+    <title>Posicionamiento</title>
+    <link rel="stylesheet" href="style.css">
+</head>                                                 
+<body>                                                  
+    <main>
+        <div id="static">                               <!--les doy un id para cada una y asi darles carcateristicas unicas a cada caja-->
+            <p>Encuentra las cajas</p>                  <!--creo un contenedor para el valor static-->
+        </div>
+
+        <div id="relative" class="cajas">
+            <p>CAJA 1</p>                               <!--creo un contenedor para el valor relative-->
+        </div>
+                           
+        <div id="fondo">
+            <p>Casi pero no, esto no es la caja</p>
+            <div id="absolute" class="cajas">           <!--creo una clase para todas las cajas-->
+                <p>CAJA 2</p>                           <!--creo un contenedor para el valor absolute-->
+            </div>
+        </div>
+
+        <div id="fixed" class="cajas">              
+            <p>CAJA 3</p>                               <!--creo un contenedor para el valor fixed-->           
+        </div>
+
+        <div id="float" class="cajas">
+            <p>CAJA 4</p>                                <!--creo un contenedor para el valor static-->
+        </div>
+
+        <div id="clear" class="cajas">
+            <p>CAJA 5</p>                                <!--creo un contenedor para el valor static-->
+        </div>
+        
+    </main>
 </body>
 </html>
