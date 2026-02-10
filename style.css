@@ -1,0 +1,48 @@
+.cajas{             /* Clase común para las cajas */
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    padding-top: 11px;
+    width: 70px;
+    height: 70px;
+}
+
+#static{            /* ID específico para la caja estática */
+    position: static;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+#relative{          /* ID específico para la caja relativa */
+    position: relative;
+    top: 1000px;
+    left: 1000px;;
+}
+
+#fondo{         
+    text-align: center;
+    color: white;
+    background-color:rgb(235, 184, 117);
+    width: 400px;
+    height: 400px;
+    #absolute{          /* ID específico para la caja absoluta */
+        position: absolute;
+        top: 460px;
+        left: 150px;
+    }
+}
+
+#fixed{            
+    position: fixed;
+    right: 100px;
+    bottom: 80px;
+}
+
+#float{     /* ID específico para la caja flotante */
+    float: right;
+}
+
+#clear{     
+    clear: both;
+}
